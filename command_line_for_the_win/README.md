@@ -11,5 +11,14 @@ Confirm that the screenshots have been successfully transferred by checking the 
 Once the screenshots are transferred, you can proceed to push the screenshots to GitHub as mentioned in the initial requirements.
 Make sure to include the steps you followed to use the SFTP command-line tool in your project’s README.md file. This will help the reviewers understand how you performed the file transfer using SFTP.
 
+<<<<<<< HEAD
 steps involved
 
+=======
+
+STEPS INVOLVED WHEN USING SFTP
+1.
+2.
+3.
+4.
+>>>>>>> 55cc849a50da8ffa05f8a615a16c9317247f44f1
