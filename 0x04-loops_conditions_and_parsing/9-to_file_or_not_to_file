@@ -7,5 +7,23 @@
 #	if  empty: school file is empty
 #	if  not empty: school file is not empty
 #	if s a regular file: school is a regular file
-#	if  file is not a regular file: 
+#	if  file is not a regular file:
 
+FILENAME="school"
+
+if [ -e "$FILENAME" ]; then
+	echo "$FILENAME file exists"
+
+	if [ -s "$FILENAME" ]; then
+		echo "$FILENAME file is not empty"
+	else
+		echo "$FILENAME file is empty"
+	fi
+
+	if [ -f "$FILENAME" ]; then
+		echo "$FILENAME is a regular file"
+	fi
+
+else
+	echo "$FILENAME file does not exist"
+fi
