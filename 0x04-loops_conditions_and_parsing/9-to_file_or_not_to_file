@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# script that gives info about the school files
+# script checks if the file exists and print:
+#	if the file exists: school file exists
+#	if the file does not exist: school file does not exist
+# If the file exists, print:
+#	if  empty: school file is empty
+#	if  not empty: school file is not empty
+#	if s a regular file: school is a regular file
+#	if  file is not a regular file: 
+

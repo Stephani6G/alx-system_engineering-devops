@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # script will show' 'Best School' 10 times
 
-i=1
-
-while [ $i -le 10 ]
+message="Best School"
+i=0
+until [ $i -ge 10 ]
 do
-    echo "Best School"
-    ((i++))
+	echo "$message"
+	(( i++ ))
 done
