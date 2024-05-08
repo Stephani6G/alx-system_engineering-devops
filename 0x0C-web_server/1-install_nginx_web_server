@@ -1,18 +1,25 @@
 #!/usr/bin/env bash
 # This script installs and configures nginx web server
 
-# Install nginx
-apt-get update
-apt-get install -y nginx
+##Update the package index
+sudo apt-get update
 
-# Allow HTTP traffic
-ufw allow 'Nginx HTTP'
+## Install Nginx
+sudo apt-get install nginx -y
 
-# Edit contents of /var/www/html/index.nginx-debian.html
-echo "Hello World!" | tee /var/www/html/index.nginx-debian.html
+## Configure Nginx
+echo "server {
+        listen 80 default_server;
+        root /var/www/html;
+        index index.html;
 
-# Make sure nginx is running
-service nginx start
+        server_name _;
 
-#output from server
-echo \[\"$(curl -s http://localhost)\"\]
+        location / {
+                # Return Hello World! as the response
+                echo 'Hello World!';
+        }
+}" | sudo tee /etc/nginx/sites-available/default
+
+# Restart Nginx
+sudo /etc/init.d/nginx restart
