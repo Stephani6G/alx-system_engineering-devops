@@ -30,7 +30,7 @@ Please, remember that these blogs must be written in English to further your tec
 
 # My first postmortem 
 	# Issue  Summary 
-	- The otage lasted for 2 hours(from 20:00 UTC to 22:00 UTC)
-	- 12000 users were imacted by the outage
-	- The root of of the outage was a configuration change that prevented access bt the login service.
+	- The outage lasted for 2 hours(from 20:00 UTC to 22:00 UTC)
+	- 12000 users were impacted by the outage
+	- The root  of the outage was a configuration change that prevented access bt the login service.
 
