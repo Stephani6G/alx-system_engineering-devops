@@ -1,6 +1,7 @@
 
 # My first postmortem 
 
+![warning-8908707_1280](https://github.com/user-attachments/assets/67663de4-2bf4-45d7-8a19-60dad4af3081)
 
 	# Issue  Summary 
 	- The outage lasted for 2 hours(from 20:00 UTC to 22:00 UTC)
