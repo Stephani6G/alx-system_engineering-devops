@@ -30,3 +30,8 @@ Below is  atimelineof the activities between 20:00 UTC -22:000 UTC
 	. 22:00: Issue declared resolved by the senior engineering team.
 
 
+Corrective and preventative measures: To prevent similar incidents from happening in the future.
+
+Conclusion 
+the outage and disruption of service was caused by misconfigured database index that resulted in a deadlock and high CPU usage. The incident was resolved by rolling back the configuration change and restarting the database.
+
